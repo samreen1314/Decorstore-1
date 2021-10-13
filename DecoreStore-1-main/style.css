@@ -1,0 +1,46 @@
+.header{
+    background-color: burlywood;
+    text-align: center;
+	margin-top: 0px;
+	background-image: url("bg.jpg");
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: cornsilk;
+	background-color: rgb(196, 219, 221);
+	background-repeat: no-repeat;
+}
+.sub-header{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+}
+a{
+	text-decoration:none;
+	font-size: 30px;
+	background-color: rgba(240,255,240,0.34);
+	padding: 10px;
+	color: midnightblue;
+	font-weight: bold;
+
+}
+.products{
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.item{
+	margin: 30px;
+	background-color: rgb(121, 153, 121);
+	padding: 30px;
+}
+.footer{
+	padding: 40px;
+	display: flex;
+	background-color:rgb(56, 50, 44);
+	justify-content: space-around;
+	text-align: center;
+}
